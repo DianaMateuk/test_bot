@@ -14,7 +14,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Указываем .env (если он в том же каталоге)
-# Можно также использовать docker-compose для удобства
 
 # Запускаем бота
 CMD ["python", "bot.py"]
